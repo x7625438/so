@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>香港优升国际有限公司</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .primary { color: #1a73e8; }
+        .bg-primary { background-color: #1a73e8; }
+        
+        .slide {
+            transition: opacity 1s ease-in-out;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .slide.active {
+            opacity: 1;
+            z-index: 1;
+        }
+        
+        .slide:not(.active) {
+            opacity: 0;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex flex-col min-h-screen bg-gray-50">
+        <!-- 头部导航 -->
+        <header class="px-4 lg:px-6 h-20 flex items-center border-b bg-white shadow-sm">
+            <div class="container mx-auto flex items-center justify-between">
+                <a href="/" class="flex items-center justify-center">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241023204921-2n2dxUJCpGShGsKC8KTLw2g6tvLRM6.jpg" 
+                         alt="香港优升国际有限公司 Logo" 
+                         class="w-[50px] h-[50px]">
+                    <div class="ml-2">
+                        <span class="text-xl font-bold text-gray-800">香港优升国际有限公司</span>
+                        <p class="text-sm text-gray-600">香港多元化教育与升学一条龙服务</p>
+                    </div>
+                </a>
+                
+                <nav class="hidden lg:flex gap-6" id="desktop-nav">
+                    <!-- 导航项目将通过 JavaScript 动态添加 -->
+                </nav>
+                
+                <a href="/contact" class="hidden md:inline-flex px-4 py-2 bg-primary text-white rounded hover:bg-opacity-90">
+                    在线咨询
+                </a>
+            </div>
+        </header>
+
+        <main class="flex-1">
+            <!-- 轮播图部分 -->
+            <section class="relative w-full h-[800px] md:h-[900px] lg:h-[1000px] overflow-hidden" id="slider">
+                <!-- 轮播图将通过 JavaScript 动态添加 -->
+            </section>
+
+            <!-- VPAS项目介绍部分 -->
+            <section class="w-full py-12 md:py-24 lg:py-32 bg-white">
+                <div class="container mx-auto px-4 md:px-6">
+                    <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12 text-gray-800">
+                        香港vtc职训局香港VPAS升学+就业
+                    </h2>
+                    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/image.png" alt="职专毕业生留港计划" class="w-full h-[300px] object-contain">
+                        </div>
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/b.png" alt="申请条件" class="w-full h-[300px] object-contain">
+                        </div>
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/c.png" alt="VPAS计划简介" class="w-full h-[300px] object-contain">
+                        </div>
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/d.png" alt="VPAS计划涵盖的五大行业" class="w-full h-[300px] object-contain">
+                        </div>
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/e.png" alt="VPAS留港签证" class="w-full h-[300px] object-contain">
+                        </div>
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/a.png" alt="修读+就业获取香港永居的全过程" class="w-full h-[300px] object-contain">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 在第一个section后面添加第二个section -->
+            <section class="w-full py-12 md:py-24 lg:py-32 bg-white">
+                <div class="container mx-auto px-4 md:px-6">
+                    <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12 text-gray-800">
+                        香港升学项目
+                    </h2>
+                    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/slide1.jpg" alt="VPAS项目介绍1" class="w-full h-[300px] object-contain">
+                        </div>
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/slide2.jpg" alt="VPAS项目介绍2" class="w-full h-[300px] object-contain">
+                        </div>
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/slide3.jpg" alt="VPAS项目介绍3" class="w-full h-[300px] object-contain">
+                        </div>
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/slide4.jpg" alt="VPAS项目介绍4" class="w-full h-[300px] object-contain">
+                        </div>
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/slide5.jpg" alt="VPAS项目介绍5" class="w-full h-[300px] object-contain">
+                        </div>
+                        <div class="bg-white shadow-lg hover:shadow-xl transition-shadow">
+                            <img src="./pages/slide6.jpg" alt="VPAS项目介绍6" class="w-full h-[300px] object-contain">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-gray-900 text-white py-12">
+            <div class="container mx-auto px-4 md:px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">联系我们</h3>
+                        <div class="space-y-2">
+                            <p class="flex items-center">
+                                <span class="mr-2">📍</span>
+                                香港九龙观塘道342-344泉源工业大厦3楼A区40室
+                            </p>
+                            <p class="flex items-center">
+                                <span class="mr-2">📞</span>
+                                00852-51306929
+                            </p>
+                            <p class="flex items-center">
+                                <span class="mr-2">📧</span>
+                                info@hkupgrade.com
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">快速链接</h3>
+                        <nav class="grid grid-cols-2 gap-2" id="footer-nav">
+                            <!-- 快速链接将通过 JavaScript 动态添加 -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // 数据
+        const services = [
+            { name: "香港升学", description: "我们为学生提供一站式升学服务，包括院校申请、签证办理、留学规划等，全方位支持学生实现香港升学梦想。" },
+            { name: "DSE规划", description: "提供全面的香港中学文凭考试（DSE）规划，包括科目选择、学习策略、应试技巧等，帮助学生在DSE中取得优异成绩。" },
+            { name: "香港游学", description: "我们为学生设计丰富的香港游学项目，让学生体验香港的文化和教育体系，开阔国际视野并激发学习兴趣。" },
+            { name: "STEM竞赛课程", description: "提供丰富的STEM竞赛课程与辅导，帮助学生掌握科学、技术、工程和数学知识，培养创新能力，参与各类国际竞赛。" },
+            { name: "职业转码", description: "提供面向职业转型的编程与技术课程，从零开始帮助学员掌握编程技能，顺利进入IT行业，实现职业生涯的突破。" },
+            { name: "香港身份", description: "协助办理香港身份，包括工作签证、学生签证等，帮助您顺利落户香港，享受多元化的生活与教育资源。" }
+        ];
+
+        const slides = [
+            { 
+                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-nekccnfBWBgYMdum7H3zhoYSq1HFtC.png",
+                link: "/vpas-details"
+            },
+            { 
+                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PrafiEvyLIuXHfR1mZaPKWizMJJ2Nj.png",
+                link: "/nurse"
+            }
+        ];
+
+        // 初始化导航
+        const desktopNav = document.getElementById('desktop-nav');
+        const footerNav = document.getElementById('footer-nav');
+
+        services.forEach(service => {
+            desktopNav.innerHTML += `
+                <a href="#" class="text-sm font-medium text-gray-600 hover:text-primary transition-colors">
+                    ${service.name}
+                </a>
+            `;
+            
+            footerNav.innerHTML += `
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                    ${service.name}
+                </a>
+            `;
+        });
+
+        // 初始化轮播图
+        let currentSlide = 0;
+        const slider = document.getElementById('slider');
+
+        function initializeSlider() {
+            slides.forEach((slide, index) => {
+                slider.innerHTML += `
+                    <div class="slide ${index === 0 ? 'active' : ''}" style="background-image: url('${slide.image}'); background-size: contain; background-position: center; background-repeat: no-repeat;">
+                </div>
+            `;
+            });
+        }
+
+        function nextSlide() {
+            const slideElements = document.querySelectorAll('.slide');
+            slideElements[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slideElements[currentSlide].classList.add('active');
+        }
+
+        initializeSlider();
+        setInterval(nextSlide, 5000);
+    </script>
+</body>
+</html>
